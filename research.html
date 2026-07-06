@@ -6,10 +6,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <h1>Research</h1>
   <p>Details about my neuroscience research and projects.</p>
-
   <div class="research-card">
     <h2>Vision with one’s eyes closed: perceptual sensitivity thresholds</h2>
     <p class="research-meta">
@@ -17,21 +15,18 @@
       Presented at Boston University & Yale University
     </p>
     <p>This project investigated how well the eyelid transmits visual information when closed, testing nine participants' sensitivity to flickering light at different frequencies. We found that vision through closed eyelids follows a structured, predictable pattern — suggesting the eyelid acts more like a filter than a complete block.</p>
-
     <img
-    <img src="BR2022_UROP_PNG.png" ... >
-      alt=" Vision with one’s eyes closed: perceptual sensitivity thresholds research poster"
+      src="BR2022_UROP_PNG.png"
+      alt="Vision with one’s eyes closed: perceptual sensitivity thresholds research poster"
       class="poster-thumb"
       onclick="openLightbox()"
     >
     <p class="poster-hint">Click to zoom in</p>
   </div>
-
   <!-- Lightbox overlay -->
   <div id="lightbox" class="lightbox" onclick="closeLightbox()">
-    <img src="BR2022_UROP_PNG.png" alt="Full size research poster>" alt="Full size research poster">
+    <img src="BR2022_UROP_PNG.png" alt="Full size research poster">
   </div>
-
   <script>
     function openLightbox() {
       document.getElementById('lightbox').classList.add('active');
@@ -40,6 +35,5 @@
       document.getElementById('lightbox').classList.remove('active');
     }
   </script>
-
 </body>
 </html>
