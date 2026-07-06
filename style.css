@@ -174,3 +174,10 @@ h2 {
   max-height: 90%;
   border-radius: 8px;
 }
+
+.headshot {
+  float: right;
+  width: 180px;
+  border-radius: 8px;
+  margin: 0 0 1rem 1.5rem;
+}
