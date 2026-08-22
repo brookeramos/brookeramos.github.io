@@ -223,6 +223,9 @@ body::before{
 .cv-entry .role{ font-weight:600; color:var(--ink); }
 .cv-entry .place{ color:var(--body); font-size:0.95rem; }
 .cv-entry .when{ font-family:var(--mono); font-size:0.76rem; color:var(--muted); white-space:nowrap; }
+.cv-entry{ align-items:flex-start; }
+.cv-proj{ font-family:var(--serif); font-style:italic; color:var(--ink); margin-top:.25rem; }
+.cv-desc{ font-size:0.9rem; line-height:1.55; color:var(--muted); margin:.7rem 0 0; max-width:60ch; }
 .placeholder{ color:var(--signal); font-family:var(--mono); font-size:0.82rem; }
 
 /* ---------- Footer ---------- */
